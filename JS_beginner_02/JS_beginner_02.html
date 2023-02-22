@@ -3,7 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Apply JavaScript example</title>
+  <title>Exemple d'application de Javascript</title>
+  <script>
+    // ajoute un événement au document HTML
+    // événement de chargement de la page
+    // utilise une fonction annonyme
+    document.addEventListener('DOMContentLoaded', () => {
+      function createParagraph() {
+        const para = document.createElement('p');
+        para.textContent = 'You clicked the button!';
+        document.body.appendChild(para);
+      }
+
+      const buttons = document.querySelectorAll('button');
+
+      for (const button of buttons) {
+        button.addEventListener('click', createParagraph);
+      }
+    });
+  </script>
 </head>
 <body>
 <button>Click me</button>
