@@ -4,7 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Exemple d'application de Javascript</title>
+  <!-- remplacement de la balise script  par script src= pour ajouter une feuille
+  JS externe
   <script>
+  -->
+  <script src="JS_beginner_02.js" defer>
+    // à noter que les lignes de codes suivant ne sont utiles que si le script est interne
+    // en utilisant script src un script externe est utilisé, ce qui va donc dire que
+    // le script va exécuter seulement les lignes de codes qui se trouvent dans la fiche externe
+
     // ajoute un écouteur d'événement au document HTML
     // événement de chargement, il exécute la fonction
     // quand le DOM de la page est complétement chargé et analysé
@@ -32,10 +40,11 @@
         button.addEventListener('click', createParagraph);
       }
     });
-  </script>
+
+</script>
 </head>
 <body>
-<!-- ajout de l'élément graphique "bouton" avec pour affichage de texte "Click me" -->
+      <!-- ajout de l'élément graphique "bouton" avec pour affichage de texte "Click me" -->
 <button>Click me</button>
 </body>
 </html>
