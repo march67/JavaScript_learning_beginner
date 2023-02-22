@@ -10,9 +10,16 @@
     // quand le DOM de la page est complétement chargé et analysé
     // utilise une fonction annonyme
     document.addEventListener('DOMContentLoaded', () => {
+
+      // crée un paragraphe
+      // de balise <p>
+      // modifie la propriété du contenu de texte du paragraphe
       function createParagraph() {
         const para = document.createElement('p');
         para.textContent = 'You clicked the button!';
+
+        // Ajoute le paragraphe "para" à la fin du document avant la fermeture
+        // de la balise <body>
         document.body.appendChild(para);
       }
 
