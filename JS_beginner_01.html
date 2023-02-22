@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- applique une feuille de style externe, exemple de comment mettre
+     un commentaire en HTML -->
+    <link rel="stylesheet" href="JS_beginner_01.css">
+    <title>Title</title>
+</head>
+<body>
+<p>Player 1 : David TA</p>
+<p>Player 2 : Dokkôdô</p>
+<script>
+    // API DOM
+    // para pour paragraphe
+    // sélecteur CSS, balises <p>
+    // retourne une liste de balise <p>
+    // const équivalent de var ?
+    const para = document.querySelectorAll('p');
+
+    // sélectionne la deuxième balise trouvée
+    // secondPara devient une balise <p>
+    const secondPara = para[1];
+
+    // ajoute l'événement de clique sur la balise 2
+    // exécute la fonction "updateName" en lien avec l'événement
+    secondPara.addEventListener('click', updateName);
+
+    // définition de la fonction updateName
+    function updateName() {
+        // demande à l'utilisateur une saisie
+        // la saisie est une chaîne de caractère
+        // la variable name prend la valeur de la saisie
+        const name = prompt('Enter a new name');
+
+        // utilise la propriété du contenu de texte du paragraphe
+        // ici la ligne ne sert à rien, il s'agit d'un textContent sur une liste...
+        para.textContent = `Player 1: ${name}`;
+
+        // définit la variable comme étant une balise, il devient la première balise
+        // trouvée dans le document HTML
+        const premierPara = para[0];
+        // en cliquant sur la balise 2, l'utilisateur effectue une saisie
+        // la saisie va afficher le texte suivant + la saisie sur la balise 1
+        premierPara.textContent = `Player 1 : ${name}`;
+    }
+
+</script>
+</body>
+</html>
