@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f280353-c077-4960-91b4-6ce30618750e" name="Changes" comment="" />
+    <list default="true" id="0f280353-c077-4960-91b4-6ce30618750e" name="Changes" comment="Merge&#10;&#10;Avec : David">
+      <change afterPath="$PROJECT_DIR$/JS_beginner_03/JS_beginner_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_beginner_03/JS_beginner_03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677105364174</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge&#10;&#10;Avec : David">
+      <created>1677243805237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677243805237</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +161,7 @@
     <MESSAGE value="Patch &#10;Avec : David" />
     <MESSAGE value="Création de JS_beginner_02&#10;Avec : David" />
     <MESSAGE value="Ajout de commentaires &#10;+&#10;création d'un JS externe&#10;Avec : David" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de commentaires &#10;+&#10;création d'un JS externe&#10;Avec : David" />
+    <MESSAGE value="Merge&#10;&#10;Avec : David" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge&#10;&#10;Avec : David" />
   </component>
 </project>
