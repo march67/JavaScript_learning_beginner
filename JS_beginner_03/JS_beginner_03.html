@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Jeu de devinette du nombre</title>
+    <script src="JS_beginner_03.js" defer></script>
+    <link rel="stylesheet" href="JS_beginner_03.css">
 </head>
 <body>
+
 <h1>Jeu de devinette du nombre</h1>
+
+<p>Nous avons choisi un nombre aléatoire entre 1 et 100. Voyons si vous pouvez
+le deviner en 10 coups ou moins. Nous vous dirons si votre supposition est
+trop élevée ou trop basse</p>
+
+<!-- La différence entre id et class est expliquée dans la documentation -->
+<!-- La différence entre un <p> et un <label> est expliquée dans la documentation -->
+
+<div class="form">
+  <label for="champSaisie">Saissez un nombre :</label>
+  <input id="champSaisie", type="number", maxlength="3", minlength="1", max="100", min="1">
+  <input class="suppositionValidée", type="submit" value="Valider">
+</div>
+
+</p>
+
+<div class="resultat">
+  <p class="suppositions"></p>
+  <p class="dernierResultat"></p>
+  <p class="inferieurOuSuperieur"></p>
+</div>
+
+<button type="button">Lancer une nouvelle partie</button>
+
 
 </body>
 </html>
