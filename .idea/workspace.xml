@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f280353-c077-4960-91b4-6ce30618750e" name="Changes" comment="" />
+    <list default="true" id="0f280353-c077-4960-91b4-6ce30618750e" name="Changes" comment="Création de JS_beginner_03&#10;Jeu de devinette du nombre&#10;&#10;Avec : David">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2023_21_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_02_2023_21_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_beginner_03/JS_beginner_03.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_beginner_03/JS_beginner_03.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M6moCfmL95utnuABPVfjK55PpT" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -50,6 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -128,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677105364174</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge&#10;&#10;Avec : David">
+      <created>1677243805237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677243805237</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Création de JS_beginner_03&#10;Jeu de devinette du nombre&#10;&#10;Avec : David">
+      <created>1677261141716</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677261141716</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +170,8 @@
     <MESSAGE value="Patch &#10;Avec : David" />
     <MESSAGE value="Création de JS_beginner_02&#10;Avec : David" />
     <MESSAGE value="Ajout de commentaires &#10;+&#10;création d'un JS externe&#10;Avec : David" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de commentaires &#10;+&#10;création d'un JS externe&#10;Avec : David" />
+    <MESSAGE value="Merge&#10;&#10;Avec : David" />
+    <MESSAGE value="Création de JS_beginner_03&#10;Jeu de devinette du nombre&#10;&#10;Avec : David" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de JS_beginner_03&#10;Jeu de devinette du nombre&#10;&#10;Avec : David" />
   </component>
 </project>
